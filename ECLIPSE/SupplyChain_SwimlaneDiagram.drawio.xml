@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="supply_chain_swimlane" name="Supply Chain Swimlane Activity Diagram">
+    <mxGraphModel dx="1020" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Swimlanes -->
+        <mxCell id="customerLane" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="150" height="800" as="geometry"/>
+        </mxCell>
+        <mxCell id="systemLane" value="System" style="swimlane;childLayout=stackLayout;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="0" width="150" height="800" as="geometry"/>
+        </mxCell>
+        <mxCell id="employeeLane" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="0" width="150" height="800" as="geometry"/>
+        </mxCell>
+        <mxCell id="warehouseLane" value="Warehouse" style="swimlane;childLayout=stackLayout;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="0" width="150" height="800" as="geometry"/>
+        </mxCell>
+        <mxCell id="transportLane" value="Transport" style="swimlane;childLayout=stackLayout;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="0" width="150" height="800" as="geometry"/>
+        </mxCell>
+
+        <!-- Customer Activities -->
+        <mxCell id="selectProducts" value="Select Products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="customerLane">
+          <mxGeometry x="20" y="20" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="addToCart" value="Add to Cart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="customerLane">
+          <mxGeometry x="20" y="80" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="placeOrder" value="Place Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="customerLane">
+          <mxGeometry x="20" y="140" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="makePayment" value="Make Payment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="customerLane">
+          <mxGeometry x="20" y="600" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="receiveDelivery" value="Receive Delivery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="customerLane">
+          <mxGeometry x="20" y="720" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- System Activities -->
+        <mxCell id="checkStock" value="Check Stock Availability" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="systemLane">
+          <mxGeometry x="20" y="200" width="110" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="onHold" value="On Hold / Wait for Restock" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="systemLane">
+          <mxGeometry x="20" y="280" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="validatePayment" value="Validate Payment" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="systemLane">
+          <mxGeometry x="20" y="660" width="110" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="cancelOrder" value="Cancel Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="systemLane">
+          <mxGeometry x="20" y="740" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Employee Activities -->
+        <mxCell id="receiveOrder" value="Receive Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="employeeLane">
+          <mxGeometry x="20" y="360" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="generateInvoice" value="Generate Invoice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="employeeLane">
+          <mxGeometry x="20" y="420" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Warehouse Activities -->
+        <mxCell id="packProducts" value="Pack Products" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="warehouseLane">
+          <mxGeometry x="20" y="480" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="updateInventory" value="Update Inventory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="warehouseLane">
+          <mxGeometry x="20" y="540" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Transport Activities -->
+        <mxCell id="assignDelivery" value="Assign Delivery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="transportLane">
+          <mxGeometry x="20" y="800" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="deliverOrder" value="Deliver Order" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="transportLane">
+          <mxGeometry x="20" y="860" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="retryDelivery" value="Retry Delivery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="transportLane">
+          <mxGeometry x="20" y="920" width="110" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

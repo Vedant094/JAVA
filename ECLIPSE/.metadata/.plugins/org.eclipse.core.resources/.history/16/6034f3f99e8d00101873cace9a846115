@@ -1,0 +1,9 @@
+package assignments;
+
+public class Employee {
+	
+	private int salary;
+	private int workHours;
+	
+
+}

@@ -1,0 +1,22 @@
+import javax.swing.*;
+import java.awt.*;
+public class draw extends Canvas{
+	public void paint(Graphics a){
+	a.setColor(Color,].Yellow);
+	a.fillOval(100,100,200,200);
+	a.setColor(Color.BLACK);
+	a.fillOval(155,175,20,20);
+	a.fillOval(255,175,20,20);
+	a.setColor(Color.BLACK);
+	a.drawArc(150,100,100,180,180);
+	}
+
+	public static void main(String Args[]){
+	draw d=new draw();
+	JFrame f=new JFrame();
+	f.add(d);
+	f.setSize(300,400);
+	f.setVisible(true);
+
+	}
+}

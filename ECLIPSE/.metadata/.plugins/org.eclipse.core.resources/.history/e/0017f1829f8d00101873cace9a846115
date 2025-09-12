@@ -1,0 +1,13 @@
+package assignments;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+		
+		emp.getInfo(540, 7);
+		System.out
+
+	}
+
+}

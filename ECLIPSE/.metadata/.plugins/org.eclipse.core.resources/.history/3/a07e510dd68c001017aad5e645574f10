@@ -1,0 +1,21 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class ItCity {
+
+	public static void main(String[] args) {
+		String city;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the city: ");
+		city=sc.nextLine();
+		if(city=="Delhi" && city=="Mumbai" && city=="Kolkata" && city=="Bangalore" && city=="Chennai" && city=="Hyderabad") {
+			System.out.println("Entered city is an IT city");
+		}
+		else {
+			System.out.println("Entered city is not an IT city");
+		}
+
+	}
+
+}

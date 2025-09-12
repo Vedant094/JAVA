@@ -1,0 +1,19 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		int number;
+		Scanner sc=new Scanner(System.in);
+		number=sc.nextInt();
+		boolean isPrime=false,notPrime=false;
+		
+		for(int i=2;i<=Math.sqrt(number);i++) {
+			
+		}
+
+	}
+
+}

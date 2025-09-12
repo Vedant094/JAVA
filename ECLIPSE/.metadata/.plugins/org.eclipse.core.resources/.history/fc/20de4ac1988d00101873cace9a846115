@@ -1,0 +1,22 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Reverse {
+
+	public static void main(String[] args) {
+		int number;
+		int reversed=0;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		number=sc.nextInt();
+		while(number!=0) {
+			int digit=number%10;
+			reversed=reversed*10+digit;
+			number=number/10;
+		}
+		
+
+	}
+
+}

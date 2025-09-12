@@ -1,0 +1,23 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		int a=10,b=23;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your choice: ");
+		System.out.println("Press enter for additon: ");
+		System.out.println("Press enter for subtraction: ");
+		System.out.println("Press enter for multiplication: ");
+		System.out.println("Press enter for division: ");
+		do {
+			int choice=sc.nextInt();
+			
+			
+		}
+
+	}
+
+}

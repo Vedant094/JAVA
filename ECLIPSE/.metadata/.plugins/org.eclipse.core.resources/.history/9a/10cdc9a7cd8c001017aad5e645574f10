@@ -1,0 +1,11 @@
+package assignments;
+//Java program to swap two numbers without a third variable
+public class SwapNumbers {
+
+	public static void main(String[] args) {
+		int a=5,b=4;
+		
+
+	}
+
+}

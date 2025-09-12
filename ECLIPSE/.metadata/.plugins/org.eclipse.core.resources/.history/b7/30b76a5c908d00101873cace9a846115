@@ -1,0 +1,12 @@
+package assignments;
+
+public class Largest {
+
+	public static void main(String[] args) {
+		int a,b,c;
+		System.out.println("Enter the value of a,b and c: ");
+		
+
+	}
+
+}
