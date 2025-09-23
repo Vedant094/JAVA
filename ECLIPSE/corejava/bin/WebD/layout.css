@@ -1,0 +1,85 @@
+/* General Page Setup */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+/* NAVIGATION */
+nav {
+  margin-top: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* MAIN CONTENT */
+main {
+  display: flex;
+  padding: 20px;
+  background: #ecf0f1;
+}
+
+/* WELCOME TEXT */
+.welcome-text {
+  flex: 2;
+  padding: 20px;
+  background: #d5f5e3;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background: #f9e79f;
+  border-radius: 8px;
+}
+
+.sidebar img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
