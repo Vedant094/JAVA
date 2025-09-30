@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Oceanic Airlines — Home</title>
+
+  <!-- Web font for logo/title -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <!-- HEADER -->
+    <header class="site-header" role="banner">
+      <div class="brand">
+        <img src="oceanic.gif" alt="Oceanic Airlines logo" class="logo" width="72" height="72">
+        <h1 class="site-title">Oceanic Airlines</h1>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Upcoming Flights</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Travel Guide</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main" role="main">
+      <div class="content-box">
+        <img src="dest.jpg" alt="Scenic destination" class="hero-img">
+
+        <h2 class="welcome">Welcome!</h2>
+        <p>
+          Looking to lose yourself? Take a trip with Oceanic Airlines!<br>
+          Experience the fun and adventure of a destination unlike any other! Regardless of what you have in mind, we promise you a trip you’ll never forget. Enjoy it all with (at least) two extra nights free!
+        </p>
+
+        <div class="links-columns">
+          <div class="column">
+            <h3>For Standard Travelers</h3>
+            <ul>
+              <li><a href="#">Standard seating charts</a></li>
+              <li><a href="#">Find out why our flights are so unique</a></li>
+              <li><a href="#">Read our insurance policy</a></li>
+              <li><a href="#">Join our frequent flyer club</a></li>
+              <li><a href="#">More Travel Resources…</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3>For "Others"</h3>
+            <ul>
+              <li><a href="#">Effect of electromagnetism on travelers</a></li>
+              <li><a href="#">Flying with animals</a></li>
+              <li><a href="#">Non-smoking policy</a></li>
+              <li><a href="#">More Travel Resources…</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <p>&copy; <span id="year"></span> Oceanic Airlines</p>
+      <p>Phone: 8755099369 | info@oceanicairlines.air</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
